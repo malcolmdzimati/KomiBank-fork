@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <!-- MDCMenu -->
-
+<link rel="stylesheet" th:href="@{/css/output.css}">
 <div th:fragment="MDCMenu(items)" class="mdc-menu mdc-menu-surface " tabindex="-1" th:id=${id}
 	th:classappend="${class != null ? class : ''}">
 	<ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical">

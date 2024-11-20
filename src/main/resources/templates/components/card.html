@@ -2,6 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <!-- MDCCard -->
+<link rel="stylesheet" th:href="@{/css/output.css}">
 
 <div th:fragment="MDCCard" class="mdc-card " th:id=${id} th:classappend="${class != null ? class : ''}">
 	<div class="mdc-card__primary-action" tabindex="0">

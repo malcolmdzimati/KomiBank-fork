@@ -2,6 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <!-- MDCButton -->
+<link rel="stylesheet" th:href="@{/css/output.css}">
 
 <button th:fragment="MDCButton(text)" th:type=${type} class="mdc-button" th:id=${id}
 	th:classappend="${class != null ? class : ''}">

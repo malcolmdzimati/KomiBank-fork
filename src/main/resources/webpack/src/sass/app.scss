@@ -21,6 +21,12 @@
 @import "./banking-admin";
 @import "./add-operations";
 @import "./md-outlined-form";
+// colors
+$primary-color :#2F7585;
+$secondary-color :#00bcd4;
+
+// icon size
+$textfield-icon-ize:22px;
 
 // To remove all dotted outline around all clicked elements in html
 *, *:active, *:focus, *.focus, *.focus:active, *.active:focus, *:active:focus, *.active.focus {

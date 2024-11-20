@@ -44,7 +44,7 @@ There are two roles : user and admin
 
 #### Open new account
 ![Open new account](https://github.com/leonlogli/KomiBank/blob/master/images/openNewAccount.PNG)
-
+ 
 #### Add new banking operation
 ![Add new banking operation](https://github.com/leonlogli/KomiBank/blob/master/images/addNewOperation.PNG)
 

@@ -2,6 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <!-- MDLTextField -->
+<link rel="stylesheet" th:href="@{/css/output.css}">
 
 <div th:fragment="MDLTextField" th:with="type=${type} ?: 'text'"
 	th:id=${id} class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label " 
@@ -40,7 +41,7 @@
 			<div class="mdc-notched-outline__trailing"></div>
 		</div>
 	</th:block>
-
+	<link rel="stylesheet" th:href="@{/css/output.css}">
 	<th:block th:if="${variant == 'outlined'}">
 		<input th:type=${type} th:name=${name} class="mdc-text-field__input" th:value=${value} 
 			th:disabled="${disabled}" th:readonly="${readonly}">
